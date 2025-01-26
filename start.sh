@@ -4,7 +4,7 @@ then
   git clone https://github.com/VJBots/Advance-Auto-Filter /Advance-Auto-Filter
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Advance-Auto-Filter
+  git clone $UPSTREAM_REPO /Akash2025-lab/Movie-update-
 fi
 cd /Advance-Auto-Filter
 pip3 install -U -r requirements.txt
