@@ -43,8 +43,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gandudotcom9955:8iZNxeXulrx9qly4@cluster0.66uej.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "vjbotsaban")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjbots')
+DATABASE_NAME = environ.get('DATABASE_NAME', "database ban")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Sgbot')
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arlinks.in')
@@ -54,11 +54,11 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/VJ_Bots')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/VJ_Bots')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+ZGttiqb6CelhOGI1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/vhajakskkjj')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001623633000'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002477118172'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'iphsheh')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
